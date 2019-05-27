@@ -1,1 +1,7 @@
-# 1_Basics_of_software_code_development
+# Basics of software code development
+
+Описание файлов
+
+Practice (tasks).pdf
+Questions.pdf
+Recommendations.pdf
