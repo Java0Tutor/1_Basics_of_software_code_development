@@ -4,7 +4,11 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/Task1/pom.xml" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/Task2/pom.xml" />
+=======
+        <option value="$PROJECT_DIR$/Task3/pom.xml" />
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>

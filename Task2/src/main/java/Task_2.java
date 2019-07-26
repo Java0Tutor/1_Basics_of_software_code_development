@@ -10,7 +10,7 @@ public class Task_2 {
         b = scanner.nextDouble();
         System.out.println("Enter value of c");
         c = scanner.nextDouble();
-        z = (b + Math.sqrt(Math.pow(b, 2) + 4 * a * c)) / 2 - Math.pow(a, 3) * c + Math.pow(b, -2);
+        z = (b + Math.sqrt(Math.pow(b, 2) + 4 * a * c)) / (2*a) - Math.pow(a, 3) * c + Math.pow(b, -2);
         System.out.printf("The Result is = %.2f", z);
         scanner.close();
     }
