@@ -16,6 +16,8 @@
         <module name="Task4" />
         <module name="Task3" />
         <module name="Task10" />
+        <module name="Task13" />
+        <module name="Task14" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +26,8 @@
       <module name="Task10" target="1.5" />
       <module name="Task11" target="1.5" />
       <module name="Task12" target="1.5" />
+      <module name="Task13" target="1.5" />
+      <module name="Task14" target="1.5" />
       <module name="Task3" target="1.5" />
       <module name="Task4" target="1.5" />
       <module name="Task5" target="8" />
