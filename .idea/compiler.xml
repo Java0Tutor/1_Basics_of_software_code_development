@@ -9,6 +9,7 @@
         <module name="Task5" />
         <module name="Task4" />
         <module name="Task3" />
+        <module name="Task18" />
         <module name="Task17" />
         <module name="Task16" />
         <module name="Task15" />
@@ -34,6 +35,7 @@
       <module name="Task15" target="1.5" />
       <module name="Task16" target="1.5" />
       <module name="Task17" target="1.5" />
+      <module name="Task18" target="1.5" />
       <module name="Task3" target="1.5" />
       <module name="Task4" target="1.5" />
       <module name="Task5" target="8" />
