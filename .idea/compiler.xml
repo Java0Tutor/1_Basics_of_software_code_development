@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Task5" />
+        <module name="Task4" />
+        <module name="Task3" />
+        <module name="Task19" />
+        <module name="Task18" />
+        <module name="Task17" />
+        <module name="Task16" />
+        <module name="Task15" />
+        <module name="Task14" />
+        <module name="Task13" />
+        <module name="Task12" />
+        <module name="Task11" />
+        <module name="Task10" />
+        <module name="Task9" />
+        <module name="Task8" />
+        <module name="Task7" />
+        <module name="Task6" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Basic" target="1.5" />
+      <module name="Task1" target="7" />
+      <module name="Task10" target="1.5" />
+      <module name="Task11" target="1.5" />
+      <module name="Task12" target="1.5" />
+      <module name="Task13" target="1.5" />
+      <module name="Task14" target="1.5" />
+      <module name="Task15" target="1.5" />
+      <module name="Task16" target="1.5" />
+      <module name="Task17" target="1.5" />
+      <module name="Task18" target="1.5" />
+      <module name="Task19" target="1.5" />
+      <module name="Task3" target="1.5" />
+      <module name="Task4" target="1.5" />
+      <module name="Task5" target="8" />
+      <module name="Task6" target="1.5" />
+      <module name="Task7" target="1.5" />
+      <module name="Task8" target="1.5" />
+      <module name="Task9" target="1.5" />
+      <module name="Task_17" target="1.5" />
+      <module name="Tasks" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
