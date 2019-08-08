@@ -36,7 +36,11 @@
 >>>>>>> Task_16
 =======
       <module fileurl="file://$PROJECT_DIR$/Task17/Task17.iml" filepath="$PROJECT_DIR$/Task17/Task17.iml" />
+<<<<<<< HEAD
 >>>>>>> Task_17
+=======
+      <module fileurl="file://$PROJECT_DIR$/Task18/Task18.iml" filepath="$PROJECT_DIR$/Task18/Task18.iml" />
+>>>>>>> Task_18
       <module fileurl="file://$PROJECT_DIR$/Task3/Task3.iml" filepath="$PROJECT_DIR$/Task3/Task3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Task4/Task4.iml" filepath="$PROJECT_DIR$/Task4/Task4.iml" />
       <module fileurl="file://$PROJECT_DIR$/Task5/Task5.iml" filepath="$PROJECT_DIR$/Task5/Task5.iml" />
