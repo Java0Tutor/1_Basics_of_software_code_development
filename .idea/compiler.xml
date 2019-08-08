@@ -53,11 +53,16 @@
 =======
         <module name="Task10" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Task_10
 =======
         <module name="Task13" />
         <module name="Task14" />
 >>>>>>> Task_13
+=======
+        <module name="Task13" />
+        <module name="Task14" />
+>>>>>>> Task_14
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -68,7 +73,10 @@
       <module name="Task12" target="1.5" />
       <module name="Task13" target="1.5" />
       <module name="Task14" target="1.5" />
+<<<<<<< HEAD
       <module name="Task15" target="1.5" />
+=======
+>>>>>>> Task_14
       <module name="Task3" target="1.5" />
 <<<<<<< HEAD
 <<<<<<< HEAD
