@@ -3,12 +3,16 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Task1/pom.xml" />
 <<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/Task2/pom.xml" />
 =======
         <option value="$PROJECT_DIR$/Task3/pom.xml" />
 >>>>>>> Stashed changes
+=======
+        <option value="$PROJECT_DIR$/Task3/pom.xml" />
+>>>>>>> Task_3
       </list>
     </option>
   </component>
