@@ -42,6 +42,7 @@
         <module name="Task5" />
         <module name="Task4" />
         <module name="Task3" />
+        <module name="Task17" />
         <module name="Task16" />
         <module name="Task15" />
         <module name="Task14" />
@@ -104,7 +105,11 @@
 >>>>>>> Task_15
 =======
       <module name="Task16" target="1.5" />
+<<<<<<< HEAD
 >>>>>>> Task_16
+=======
+      <module name="Task17" target="1.5" />
+>>>>>>> Task_17
       <module name="Task3" target="1.5" />
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -131,9 +136,13 @@
       <module name="Task8" target="1.5" />
       <module name="Task9" target="1.5" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Task_8
 =======
 >>>>>>> Task_9
+=======
+      <module name="Task_17" target="1.5" />
+>>>>>>> Task_17
       <module name="Tasks" target="1.5" />
     </bytecodeTargetLevel>
   </component>

@@ -61,7 +61,11 @@
 >>>>>>> Task_15
 =======
         <option value="$PROJECT_DIR$/Task16/pom.xml" />
+<<<<<<< HEAD
 >>>>>>> Task_16
+=======
+        <option value="$PROJECT_DIR$/Task17/pom.xml" />
+>>>>>>> Task_17
       </list>
     </option>
   </component>
