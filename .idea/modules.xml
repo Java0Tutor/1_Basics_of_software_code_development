@@ -4,10 +4,14 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/1_Basics_of_software_code_development.iml" filepath="$PROJECT_DIR$/.idea/1_Basics_of_software_code_development.iml" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/Task1/Task1.iml" filepath="$PROJECT_DIR$/Task1/Task1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Task2/Task2.iml" filepath="$PROJECT_DIR$/Task2/Task2.iml" />
 =======
 >>>>>>> Task_3
+=======
+      <module fileurl="file://$PROJECT_DIR$/Task10/Task10.iml" filepath="$PROJECT_DIR$/Task10/Task10.iml" />
+>>>>>>> Task_10
       <module fileurl="file://$PROJECT_DIR$/Task3/Task3.iml" filepath="$PROJECT_DIR$/Task3/Task3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Task4/Task4.iml" filepath="$PROJECT_DIR$/Task4/Task4.iml" />
       <module fileurl="file://$PROJECT_DIR$/Task5/Task5.iml" filepath="$PROJECT_DIR$/Task5/Task5.iml" />
