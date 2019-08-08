@@ -42,6 +42,7 @@
         <module name="Task5" />
         <module name="Task4" />
         <module name="Task3" />
+        <module name="Task19" />
         <module name="Task18" />
         <module name="Task17" />
         <module name="Task16" />
@@ -114,7 +115,11 @@
 >>>>>>> Task_17
 =======
       <module name="Task18" target="1.5" />
+<<<<<<< HEAD
 >>>>>>> Task_18
+=======
+      <module name="Task19" target="1.5" />
+>>>>>>> Task_19
       <module name="Task3" target="1.5" />
 <<<<<<< HEAD
 <<<<<<< HEAD
