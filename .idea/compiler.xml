@@ -9,9 +9,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <module name="Task1" />
 =======
 =======
+=======
+        <module name="Task6" />
+>>>>>>> Task_6
         <module name="Task5" />
 >>>>>>> Task_5
         <module name="Task4" />
@@ -38,7 +42,11 @@
 >>>>>>> Task_4
 =======
       <module name="Task5" target="8" />
+<<<<<<< HEAD
 >>>>>>> Task_5
+=======
+      <module name="Task6" target="1.5" />
+>>>>>>> Task_6
       <module name="Tasks" target="1.5" />
     </bytecodeTargetLevel>
   </component>
