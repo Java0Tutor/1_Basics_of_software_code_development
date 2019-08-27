@@ -1,23 +1,9 @@
-<<<<<<< HEAD
-public class Task_9 {
-
-    public static void main(String[] args) {
-
-       // 3. Даны три точки А(х1,у1), В(х2,у2) и С(х3,у3). Определить, будут ли они расположены на одной прямой.
-
-
-
-
-    }
-
-=======
 import java.util.Scanner;
-
-public class Task_9 {
-    public static void main(String[] args) {
-
         //  3. Даны три точки А(х1,у1), В(х2,у2) и С(х3,у3).
         //   Определить, будут ли они расположены на одной прямой.
+public class Task_9 {
+    public static void main(String[] args) {
+        
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter coordinates dot A:");
@@ -44,5 +30,4 @@ public class Task_9 {
             System.out.println("All dots is on one line");
         } else System.out.println("Dots don't is on one line");
     }
->>>>>>> Task_9
 }
