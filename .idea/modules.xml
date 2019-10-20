@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/1_Basics_of_software_code_development.iml" filepath="$PROJECT_DIR$/.idea/1_Basics_of_software_code_development.iml" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/Task1/Task1.iml" filepath="$PROJECT_DIR$/Task1/Task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task2/Task2.iml" filepath="$PROJECT_DIR$/Task2/Task2.iml" />
+=======
+>>>>>>> Task_3
+=======
+      <module fileurl="file://$PROJECT_DIR$/Task10/Task10.iml" filepath="$PROJECT_DIR$/Task10/Task10.iml" />
+<<<<<<< HEAD
+>>>>>>> Task_10
+=======
+      <module fileurl="file://$PROJECT_DIR$/Task11/Task11.iml" filepath="$PROJECT_DIR$/Task11/Task11.iml" />
+<<<<<<< HEAD
+>>>>>>> Task_11
+=======
+      <module fileurl="file://$PROJECT_DIR$/Task12/Task12.iml" filepath="$PROJECT_DIR$/Task12/Task12.iml" />
+<<<<<<< HEAD
+>>>>>>> Task_12
+=======
+      <module fileurl="file://$PROJECT_DIR$/Task13/Task13.iml" filepath="$PROJECT_DIR$/Task13/Task13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task14/Task14.iml" filepath="$PROJECT_DIR$/Task14/Task14.iml" />
+<<<<<<< HEAD
+>>>>>>> Task_14
+=======
+      <module fileurl="file://$PROJECT_DIR$/Task15/Task15.iml" filepath="$PROJECT_DIR$/Task15/Task15.iml" />
+<<<<<<< HEAD
+>>>>>>> Task_15
+=======
+      <module fileurl="file://$PROJECT_DIR$/Task16/Task16.iml" filepath="$PROJECT_DIR$/Task16/Task16.iml" />
+<<<<<<< HEAD
+>>>>>>> Task_16
+=======
+      <module fileurl="file://$PROJECT_DIR$/Task17/Task17.iml" filepath="$PROJECT_DIR$/Task17/Task17.iml" />
+<<<<<<< HEAD
+>>>>>>> Task_17
+=======
+      <module fileurl="file://$PROJECT_DIR$/Task18/Task18.iml" filepath="$PROJECT_DIR$/Task18/Task18.iml" />
+<<<<<<< HEAD
+>>>>>>> Task_18
+=======
+      <module fileurl="file://$PROJECT_DIR$/Task19/Task19.iml" filepath="$PROJECT_DIR$/Task19/Task19.iml" />
+>>>>>>> Task_19
+      <module fileurl="file://$PROJECT_DIR$/Task3/Task3.iml" filepath="$PROJECT_DIR$/Task3/Task3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task4/Task4.iml" filepath="$PROJECT_DIR$/Task4/Task4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task5/Task5.iml" filepath="$PROJECT_DIR$/Task5/Task5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task6/Task6.iml" filepath="$PROJECT_DIR$/Task6/Task6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task7/Task7.iml" filepath="$PROJECT_DIR$/Task7/Task7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task8/Task8.iml" filepath="$PROJECT_DIR$/Task8/Task8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task9/Task9.iml" filepath="$PROJECT_DIR$/Task9/Task9.iml" />
+    </modules>
+  </component>
+</project>

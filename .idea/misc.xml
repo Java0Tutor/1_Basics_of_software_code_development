@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/Task1/pom.xml" />
+<<<<<<< Updated upstream
+        <option value="$PROJECT_DIR$/Task2/pom.xml" />
+=======
+        <option value="$PROJECT_DIR$/Task3/pom.xml" />
+<<<<<<< HEAD
+>>>>>>> Stashed changes
+=======
+        <option value="$PROJECT_DIR$/Task3/pom.xml" />
+>>>>>>> Task_3
+=======
+        <option value="$PROJECT_DIR$/Task4/pom.xml" />
+<<<<<<< HEAD
+>>>>>>> Task_4
+=======
+        <option value="$PROJECT_DIR$/Task5/pom.xml" />
+<<<<<<< HEAD
+>>>>>>> Task_5
+=======
+        <option value="$PROJECT_DIR$/Task6/pom.xml" />
+<<<<<<< HEAD
+>>>>>>> Task_6
+=======
+        <option value="$PROJECT_DIR$/Task7/pom.xml" />
+<<<<<<< HEAD
+>>>>>>> Task_7
+=======
+        <option value="$PROJECT_DIR$/Task8/pom.xml" />
+        <option value="$PROJECT_DIR$/Task9/pom.xml" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> Task_8
+=======
+>>>>>>> Task_9
+=======
+        <option value="$PROJECT_DIR$/Task10/pom.xml" />
+<<<<<<< HEAD
+>>>>>>> Task_10
+=======
+        <option value="$PROJECT_DIR$/Task11/pom.xml" />
+<<<<<<< HEAD
+>>>>>>> Task_11
+=======
+        <option value="$PROJECT_DIR$/Task12/pom.xml" />
+<<<<<<< HEAD
+>>>>>>> Task_12
+=======
+        <option value="$PROJECT_DIR$/Task13/pom.xml" />
+        <option value="$PROJECT_DIR$/Task14/pom.xml" />
+<<<<<<< HEAD
+>>>>>>> Task_14
+=======
+        <option value="$PROJECT_DIR$/Task15/pom.xml" />
+<<<<<<< HEAD
+>>>>>>> Task_15
+=======
+        <option value="$PROJECT_DIR$/Task16/pom.xml" />
+<<<<<<< HEAD
+>>>>>>> Task_16
+=======
+        <option value="$PROJECT_DIR$/Task17/pom.xml" />
+<<<<<<< HEAD
+>>>>>>> Task_17
+=======
+        <option value="$PROJECT_DIR$/Task18/pom.xml" />
+<<<<<<< HEAD
+>>>>>>> Task_18
+=======
+        <option value="$PROJECT_DIR$/Task19/pom.xml" />
+>>>>>>> Task_19
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>
