@@ -1,0 +1,460 @@
+
+LINE PROGRAMS
+
+EXERCISE 1
+
+import java.util.Scanner;
+
+public class TestMain {
+        public static void main(String[] args) {
+            Scanner s = new Scanner(System.in);
+            System.out.println("Введите значение а: ");
+            int a = s.nextInt();
+            System.out.println("Введите значение b: ");
+            int b = s.nextInt();
+            System.out.println("Введите значение c: ");
+            int c = s.nextInt();
+            double z = (((a-3)*b/2)+c);
+            System.out.println(z);
+        }
+    }
+    
+EXERCISE 2    
+
+public class TestMain {
+    public static void main(String... asf) {
+        // Объявим переменные для степеней переменных
+        int v1 = 2;
+        int v2 = 3;
+        int v3 = -2;
+        double z;
+// Объявим значения переменных с = 1.0 , b = 2.0, a = 3.0
+        double c = 5.0;
+        double a = 2.0, a1 = Math.pow(a, v2);
+        double b = 1.0, b1 = Math.pow(b, v1), b2 = Math.pow(b, v3);
+        double t = Math.sqrt(Math.pow(b, a1) + 4 * a * c);
+        double t1 = (b + t) % 2 * a;
+        z = t1 - a1 * c + b2;
+
+        System.out.println(z);
+
+    }
+}
+
+EXERCISE 3
+
+import static java.lang.Math.*;
+public class TestMain {
+    public static void main(String... asf) {
+        // Объявим переменные типа double x и y
+        // Нужно импортировать toRadians, cos, sin
+
+        double x = 30.0;
+        double x1 = toRadians(x); // sin x
+        double x2 = toRadians(x); // cos x
+        double x3 = sin(x1) % cos(x2); // tg x
+//        System.out.println(sin(x1));
+//        System.out.println(cos(x2));
+//        System.out.println(tan(x3));
+
+        double y = 45.0;
+        double y1 = toRadians(y); // sin y
+        double y2 = toRadians(y); // cos y
+        double y3 = sin(y1) % cos(y2); // tg y
+//        System.out.println(sin(y1));
+//        System.out.println(cos(y2));
+//        System.out.println(tan(y3));
+
+        // Значение выражения z выглядит следующим образом
+
+        double z = ((sin(x1) + cos(y2)) % (cos(x2) - sin(y1))) % (tan(x3) + tan(y3));
+        System.out.println(z);
+    }
+}
+
+EXERCISE 4
+
+public class TestMain {
+    public static void main(String... asf) {
+// Предположим число R равно 457.987
+        double R = 457.987;
+        double R1 = (int) R;
+        //System.out.println(R1);
+        double result1 = R1 / 1000;
+        double result=  result1 + (R - R1) * 1000;
+        System.out.println(result);
+    }
+}
+
+EXERCISE 5
+
+public class TestMain {
+    public static void main(String... asf) {
+        long T = 87896799;
+
+        long HH = 0;
+        long MM = 0;
+        long SS = 0;
+
+        HH = T / 3600;
+        MM = (T - HH * 3600) / 60;
+        SS = T - HH * 3600 - MM * 60;
+        System.out.println(HH + "ч "+ MM + "м " + SS + "с " );
+    }
+}
+
+EXERSICE 6
+
+import java.util.Random; // импортируем класс Random
+public class TestMain {
+    public static void main(String[] args) {
+
+        Random rx = new Random();
+        Random ry = new Random();
+
+        int x = rx.nextInt(15) -6;
+        int y = ry.nextInt(12) -4;
+
+        {
+            if (x > 0 && y > 0) {
+                if (x < 3 && y < 5) {
+                    System.out.println(true);
+                    return;
+                }
+            }
+
+            if (x < 0 && y > 0) {
+                if (x > -3 && y < 5) {
+                    System.out.println(true);
+                    return;
+                }
+            }
+            if (x > 0 && y < 0) {
+                if (x < 5 && y > -4) {
+                    System.out.println(true);
+                    return;
+                }
+            }
+            if (x < 0 && y < 0) {
+                if (x > -5 && y > -4) {
+                    System.out.println(true);
+                    return;
+                }
+            }
+            System.out.println(false);
+        }
+    }
+}
+
+
+BRANCHES
+
+EXERCISE 1
+
+import java.util.Random;
+
+public class TestMain {
+    public static void main(String[] args) {
+
+        double Min = 0.0;
+        double Max = 360.0;
+        Random r = new Random();
+        double x = Min + (Max - Min) * r.nextDouble(); // угол x
+        double y = Min + (Max - Min) * r.nextDouble(); // угол y
+//double x = 45.0;
+//double y = 45.0;
+        System.out.println("Угол 1: "+x);
+        System.out.println("Угол 2: "+y);
+
+        double z = x + y; // сумма 2х углов
+        double z1 = 180.0 - z;
+//        System.out.println(z);
+//        System.out.println(z1);
+        double t = 180.0; // сумма углов треугольника
+
+        if (z < 180.0) {
+            System.out.println("Triangle: " + true);
+            if (z1 == 90) {
+                System.out.println("Triangle: rectangular");
+            }
+        } else {
+            System.out.println("Impossible");
+        }
+    }
+}
+
+EXERCISE 2
+
+public class TestMain {
+    public static void main(String[] args) {
+
+        int max;
+        int a = 5;
+        int b = 6;
+        int c = 7;
+        int d = 8;
+
+        int z;
+        z = Math.min(a, b);
+//        System.out.println(z);
+        int z1;
+        z1 = Math.min(c, d);
+//        System.out.println(z1);
+
+        if (z > z1) {
+            max = z;
+        } else {
+            max = z1;
+        }
+        System.out.println(max);
+    }
+}
+
+
+EXERSIZE 3
+
+public class TestMain {
+    public static void main(String[] args) {
+
+        double x1 = 1, y1 = 1;
+        double x2 = 1, y2 = 1;
+        double x3 = 1, y3 = 1;
+
+        if (x1 == x2 && x2 == x3 && x1 == x3 && y1 == y2 && y2 == y3 && y1 == y3)
+            System.out.println("Точки на одной прямой");
+        else
+            System.out.println("Точки не лежат на одной прямой");
+    }
+}
+
+
+EXERCISE 4
+
+import java.util.Random;
+
+public class TestMain {
+    public static void main(String[] args) {
+        Random ar = new Random();
+        Random br = new Random();
+
+// Произвольные размеры дыры в стене
+        int a = ar.nextInt(300);
+        int b = br.nextInt(300);
+
+// Запишем размеры кирпича
+        int x = 40;
+        int y = 190;
+        int z = 60;
+
+        if (x <= a && y <= b || y <= a && x <= b ||
+                x <= a && z <= b || z <= a && x <= b ||
+                z <= a && y <= b || y <= a && z <= b)
+            System.out.println("Пройдёт");
+        else
+            System.out.println("Не пройдет");
+    }
+}
+
+EXERSICE 5
+
+
+import java.util.Scanner;
+
+public class TestMain {
+    public static void main(String[] args) {
+
+        //Вычислить значение функции:
+        Scanner scanner = new Scanner(System.in);
+        System.out.println(" Enter x ");
+        double x = scanner.nextDouble();
+
+        double g, z;
+        if (x<=3){
+            z = Math.pow(x,2)-3*x+9;
+            System.out.printf("Result 1: %.1f ", z);
+        } else if (x > 3) {
+            g = 1 / (Math.pow(x, 3) + 6);
+            System.out.printf("Result 2: %.1f ", g);
+        }
+    }
+}
+
+
+CYCLES
+
+
+EXERCISE 1
+
+import java.util.Scanner;
+
+public class TestMain {
+    public static void main(String[] args) {
+        System.out.print("Введите любое целое положительное число и нажмите Enter: ");
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int sum = 0;
+        for (int i=1; i<= n; i++){
+            sum = sum + i;
+            System.out.println(i);
+        }
+        System.out.println ("Сумма всех чисел: "+ sum);
+    }
+}
+
+EXERCISE 2
+
+import java.util.Scanner;
+
+public class TestMain {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter start line A");
+        int a = scanner.nextInt();
+        System.out.println("Enter finish line B");
+        int b = scanner.nextInt();
+        System.out.println("Enter step h");
+        double h = scanner.nextDouble();
+        System.out.println("Enter the value of x");
+        int x = scanner.nextInt();
+        int  y;
+
+        for (double i = a; i <= b; i = i + h) {
+            if (x > 2) {
+                y = x;
+            } else
+                y = -x;
+            System.out.println("x = "+ x + "\n" + "y = " + y);
+        }
+    }
+}
+
+EXERCISE 3
+
+public class TestMain {
+    public static void main(String[] args) {
+        int n = 100, sum = 0;
+        for (int i = 1; i <= n; i++) {
+            sum += Math.pow(i, 2);;
+        }
+        System.out.println("Сумма квадратов первых ста чисел= " + sum);
+    }
+}
+
+EXERCISE 4
+
+public class TestMain {
+    public static void main(String[] args) {
+        long n = 200, sum = 1; //  Если sum = 0 , то все последующие числа будут умножаться на 0 и произведение будет равно 0;
+        for (int i = 1; i <= n; i++) {
+            sum *= Math.pow(i, 2);;
+        }
+        System.out.println("Произведение квадратов первых ста чисел= " + sum);
+    }
+}
+
+EXERCISE 5
+
+public class TestMain {
+
+    public static void main(String[] args) {
+
+        // Даны числовой ряд и некоторое число е. Найти сумму тех членов ряда, модуль которых больше или равен
+        // заданному е. Общий член ряда имеет вид:   a =  1/2^n + 1/3^n;
+
+        System.out.println("Input е");
+        Scanner scanner = new Scanner(System.in);
+        double e =  scanner.nextDouble();
+
+        int n = 0;
+        double sum = 0;
+        System.out.println("Print a series of common member series: ");
+        for (int i = 0; i<=10; i++){
+            ++n;
+            System.out.print("\n");
+            double a =  (1/Math.pow(2,n))+ (1/Math.pow(3,n));
+            System.out.printf("%.4f", a);
+            if (e <= Math.abs(a))
+                sum = sum+a;
+            System.out.printf(" sum is %f", sum);
+        }
+    }
+}
+
+EXERCISE 6
+
+public class TestMain {
+    public static void main(String... asf)
+    {
+
+        for(int i =0; i<256; i++)
+        {
+            System.out.println( i + ". " + (char)i);
+        }
+    }
+}
+
+
+EXERCISE 7
+
+import java.util.Scanner;
+
+public class TestMain {
+    public static void main(String[] args) {
+
+        //   rus: Для каждого натурального числа в промежутке от m до n вывести все делители, кроме единицы и самого числа.
+        //        m и n вводятся с клавиатуры.
+
+        //  eng: For each positive integer in the range from m to n, print all dividers except for the unit and the number itself.
+        //       m and n are entered from the keyboard.
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter start of line numbers m ");
+        int m = scanner.nextInt();
+        System.out.println("Enter end of line numbers n ");
+        int n = scanner.nextInt();
+
+        while (m <= n) {
+            System.out.print("\n number: " + m);
+            System.out.print(" its dividers: ");
+            for (int i = 2; i <= m - 1; i++) {
+                if (m % i == 0) {
+                    System.out.print(i + ",");
+                }
+            }
+            m = m + 1;
+        }
+    }
+}
+
+EXERCISE 8
+
+public class TestMain {
+    public static void main(String[] args) {
+// Создаём массив и вводим руками ао 1 числу в каждый элемент массива
+        int[] number1 = {1, 3, 4};
+        int[] number2 = {2, 3, 4};
+        for (int v : number1)
+            System.out.print(v);
+        System.out.print(" ");
+        for (int v1 : number2)
+            System.out.print(v1);
+        {
+            int[] number3 = new int[number1.length];
+            int count = 0;
+
+            for (int i = 0; i < number1.length;i++) {
+                if (number1[i] == number2[i]) {
+                    number3[count] = number1[i];
+                    count++;
+                    System.out.println(" ");
+                    for (int v2 : number3)
+                        System.out.print(v2);
+
+                }
+            }
+        }
+    }
+}
+
+
