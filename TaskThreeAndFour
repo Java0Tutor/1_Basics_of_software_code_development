@@ -1,0 +1,53 @@
+package TaskThreeAndFourPackage;
+/**
+ * @author Alexey Isaev / Rich
+ *
+ */
+
+import java.util.Scanner;
+
+public class MainTaskThreeAndFour {
+	public static final double CONSTANT_R = 789.345;
+	
+	public static void main(String[] args) {
+		double x;
+		double y;
+		double z1;
+		double z2;
+		double z3;
+		double z;
+		String s;	
+		String strNNN = "";
+		String strDDD = "";
+		
+		try (Scanner console = new Scanner(System.in)) {
+			System.out.print("Введите X:");
+			x=console.nextDouble();
+						
+			System.out.print("Введите Y:");
+			y=console.nextDouble();
+			
+			z1=Math.sin(x)+Math.cos(y);
+			z2=Math.cos(x)-Math.sin(y);
+			z3=Math.tan(x+y);
+			z=z1/z2*z3;
+			
+			System.out.println("Решение задачи №3: "+z);
+			System.out.println("Решение задачи №4:");
+			System.out.println("константа R="+CONSTANT_R);
+			
+			s = Double.toString(CONSTANT_R);
+			int indexPoint = s.indexOf(".");
+			for (int i=0; i<s.length();i++) {
+				if (i<indexPoint) {
+					strNNN = strNNN+s.charAt(i);
+				}
+				if (i>indexPoint) {
+					strDDD = strDDD+s.charAt(i);
+				}
+			}
+			System.out.println("отредактированные данные: "+strDDD+"."+strNNN);
+		}
+	}
+
+}
